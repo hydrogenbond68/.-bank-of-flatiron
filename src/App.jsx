@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import TransactionTable from './Components/TransactionTable.jsx';
 import AddTransaction from './Components/AddTransaction.jsx';
-import SearchBar from  './Components/SearchBar.jsx';
+import SearchBar from './Components/SearchBar.jsx';
 import TransactionList from './Components/TransactionList.jsx';
 import './Components/Style.css';
 
-  function App() {
-    const [transactions, setTransactions] = useState([]);
+function App() {
+  const [transactions, setTransactions] = useState([]);
   const [filterTerm, setFilterTerm] = useState('');
 
   const handleAddTransaction = (newTransaction) => {
@@ -23,11 +23,11 @@ import './Components/Style.css';
 
   return (
     <div>
-    <AddTransaction onSubmit={handleAddTransaction}/>
-    <SearchBar onClick={handleAddTransaction}/>
-    <TransactionList transactions={filteredTransactions}/>
-    <TransactionTable transactions={filteredTransactions}/>
-</div>
+      <AddTransaction onSubmit={handleAddTransaction} />
+      <SearchBar onChange={handleFilterTransactions} />
+      <TransactionList transactions={filteredTransactions} />
+      <TransactionTable transactions={filteredTransactions} />
+    </div>
   );
 }
 
