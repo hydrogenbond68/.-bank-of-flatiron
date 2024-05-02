@@ -26,6 +26,7 @@ const TransactionTable = ({ transactions }) => {
         <tr>
           <th>Date</th>
           <th>Description</th>
+          <th>Category</th>
           <th>Amount</th>
         </tr>
       </thead>
@@ -34,6 +35,7 @@ const TransactionTable = ({ transactions }) => {
           <tr key={transaction.id}>
             <td>{transaction.date}</td>
             <td>{transaction.description}</td>
+            <td>{transaction.type}</td>
             <td>${transaction.amount}</td>
           </tr>
         ))}
