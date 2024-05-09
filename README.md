@@ -1,9 +1,44 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Phase 2 WK1 Code Challenge
 
-Currently, two official plugins are available:
+#### Date, 02/05/2024
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### By Joel Waweru
+
+## Live Demo
+[Check The Project Right Here](https://the-royal-bank-of-flatiron-three.vercel.app/)
+
+## Description
+- The Transaction Management System is a web app for tracking financial transactions. It offers features like viewing transactions in a table, adding new ones, and filtering by keywords. Users can also sort transactions alphabetically by category or description.
+
+### Objective
+- Display a table of transactions.
+- Implement a form for adding new transactions.
+- Add functionality to filter transactions by description using a search bar.
+- Allow sorting of transactions alphabetically by category or description.
+
+## Installation
+You use git clone to be able to download the documents in the GitHub
+
+## Installation Requirements
+Git
+
+### Installation instruction
+```
+Git clone https://github.com/hydrogenbond68/-bank-of-flatiron/.git
+
+```
+
+## Technologies used
+HTML
+Github
+Javascript
+
+## Support and contact details
+github.com/hydrogenbond68
+
+### License
+The content of this site is licensed under the MIT license
+Copyright (c) 2024.
 # SA.01-WK1-Code-Challenge-bank-of-flatrion
